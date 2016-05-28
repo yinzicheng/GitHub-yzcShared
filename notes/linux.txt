@@ -1,0 +1,30 @@
+cd - : back to previous dir
+ip addr show : show ip address
+ls -R : recursive(must R here) list all files and dirs
+ls -a : list hidden files
+rm -r : recursive delete dir and files; -f(force) : without confirmation; -v(verbose) : show delete sumary; i(interaction) : prompt message
+cp -r dir2 dir2 : copy dir to another dir
+mv oldfilename newfilename : rename file
+file filename : show file type and info 
+history : show all command history in the system; !command number(example: !123): execute command again
+
+
+/****Text Edit:****/
+nano
+vi
+
+
+/****Text Display:****/
+less/more
+cat/tac
+head/tail
+
+
+/****SHORTCUT:****/
+cd f* (then press [tab] key) : auto complete with full filename
+command [tab][tab] : show suggestion
+Ctrl + D : delete character
+Alt + F : one word forward; Alt + B : one word backward
+Alt + U : one word to lower case; Alt + U : one word to upper case
+Ctrl + K (U): Cut selected words; Ctrl + Y : Paste
+Ctrl + L : clear screen

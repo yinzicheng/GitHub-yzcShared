@@ -1,0 +1,39 @@
+Configure Git for the first time
+git config --global user.name "zicheng yin"
+git config --global user.email "yinzicheng@gmail.com"
+Working with your repository
+I just want to clone this repository
+If you want to simply clone this empty repository then run this command in your terminal.
+git clone http://yzc@desktop-7kt0gnu:7990/scm/proj/test-2.git
+My code is ready to be pushed
+If you already have code ready to be pushed to this repository then run this in your terminal.
+cd existing-project
+git init
+git add --all
+git commit -m "Initial Commit"
+git remote add origin http://yzc@desktop-7kt0gnu:7990/scm/proj/test-2.git
+git push -u origin master
+My code is already tracked by Git
+If your code is already tracked by Git then set this repository as your "origin" to push to.
+cd existing-project
+git remote set-url origin http://yzc@desktop-7kt0gnu:7990/scm/proj/test-2.git
+git push -u origin master
+
+
+
+https://confluence.atlassian.com/bitbucketserver/ssh-user-keys-for-personal-use-776639793.html
+
+ssh-keygen -t rsa -C "yinzicheng@gmail.com"
+
+
+http://yzc@desktop-7kt0gnu:7990/scm/tes/test1.git
+ssh://git@desktop-7kt0gnu:7999/tes/test1.git
+
+git clone http://yzc@desktop-7kt0gnu:7990/scm/tes/test1.git
+
+git clone desktop-7kt0gnu:7999/tes/test1.git
+
+
+
+Bitbucket Server
+http://desktop-7kt0gnu:7990
