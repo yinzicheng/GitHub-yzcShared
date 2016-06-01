@@ -22,6 +22,7 @@ vi
 less/more
 cat/tac
 head/tail
+tail -f (follow): output appended data as the file grows;
 wc filename (Word Count): number of lines, words, chars
 
 
@@ -40,3 +41,7 @@ type [commandname] : show type of a command
 file [filename] : show file type
 which [commandname] : show the full path of shell commands
 help/man/whatis [commandname]
+
+id/groups [username]
+
+chmod [mode] [file]
